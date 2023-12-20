@@ -17,3 +17,228 @@ body {
 ul {
   list-style: none;
 }
+
+.bg {
+  position: absolute;
+  left: 0%;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  background: #83616e;
+}
+
+/* NAVBAR
+=========================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 80px;
+  align-items: center;
+}
+
+.navbar .title {
+  margin-right: 100px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.navbar .categories {
+  margin-right: auto;
+}
+
+.navbar .categories ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar .menu {
+  margin-right: 50px;
+}
+
+/* SOCIAL MEDIA
+=========================== */
+.media {
+  position: absolute;
+  top: 350px;
+  right: -90px;
+  transform: rotate(-90deg);
+}
+
+.media ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* TEXT
+=========================== */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  width: 1000px;
+}
+
+.text h1 {
+  position: relative;
+  padding: 8px 12px;
+  height: 150px;
+  width: 100%;
+  font-size: 120px;
+  font-family: 'Tinos';
+  font-weight: 700;
+  letter-spacing: 5px;
+  overflow: hidden;
+}
+.text h1 .hidetext {
+  position: absolute;
+  text-shadow: 1px 1px 1px #520101;
+}
+
+.text p {
+  position: relative;
+  padding: 8px 12px;
+  height: 50px;
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Tinos';
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  overflow: hidden;
+}
+.text p .hidetext {
+  position: absolute;
+  text-shadow: 1px 1px 1px #520101;
+}
+
+/* DESC
+=========================== */
+.desc {
+  position: absolute;
+  left: 200px;
+  bottom: 70px;
+  display: flex;
+}
+
+.desc ul {
+  margin-right: 50px;
+}
+
+.desc ul li {
+  margin-bottom: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+}
+
+.desc p {
+  width: 250px;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+/* SCROLLDOWN
+=========================== */
+.scrolldown {
+  position: absolute;
+  bottom: 110px;
+  left: -60px;
+  transform: rotate(-90deg);
+
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.scrolldown::before {
+  content: '';
+  display: inline-block;
+  margin: 0 20px 0 0;
+  width: 100px;
+  border: 1px solid #fff;
+  transform: translateY(-3px);
+  opacity: 0.5;
+}
+
+/* BOTTOMNAV
+=========================== */
+.bottomnav {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+.bottomnav .next {
+  margin-bottom: 30px;
+  font-size: 10px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.bottomnav .next::after {
+  content: '';
+  display: inline-block;
+  margin: 0 0 0 20px;
+  width: 128px;
+  border: 1px solid #fff;
+  transform: translateY(-3px);
+}
+
+.bottomnav .nav {
+  display: flex;
+}
+
+.bottomnav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  color: #000;
+}
+
+.bottomnav ul li {
+  padding: 20px 10px;
+  font-size: 25px;
+}
+
+.bottomnav-img {
+  height: 200px;
+  width: 360px;
+}
+
+/* DISTORTION
+=========================== */
+.displacement01 {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  height: 500px;
+  width: 350px;
+}
+.displacement02 {
+  position: absolute;
+  top: 0;
+  left: 650px;
+  height: 100vh;
+  width: 800px;
+}
+.displacement03 {
+  height: 200px;
+  width: 360px;
+}
